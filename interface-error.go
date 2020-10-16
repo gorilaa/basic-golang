@@ -16,7 +16,7 @@ func Pembagian(nilai int, pembagi int) (int, error) {
 func main() {
 	results, err := Pembagian(10,0);
 	if err == nil {
-		fmt.Println("Resuts:", results)
+		fmt.Println("Results:", results)
 	}
 
 	fmt.Println("Error:", err)
